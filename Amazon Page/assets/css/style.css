@@ -1,0 +1,123 @@
+/* Your styles here */
+*,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+body{
+    height: 100%;
+    }
+
+header img{
+    height: 3rem;
+    margin-block: 0.5rem;
+}
+
+header,footer{
+    background-color: #21303f;
+    /* display: inline-block; */
+}
+main{
+    display: inline-block;
+    width: 100%;
+}
+
+a p{
+    display: inline;
+}
+a,.orange,.imgHoliday{
+    color: white;
+}
+
+/* a{
+    background-color: #354759;
+} */
+
+.link{
+    background-color: #354759;
+    padding-block: 1rem;
+    padding-inline: 2rem;
+    
+}
+.link a{
+    text-decoration: auto;
+    padding-inline-end: 0.5rem;
+}
+.back{
+    text-decoration: underline;
+}
+.orange{
+    background-color: #f56600;
+    padding-block: 0.7rem;
+}
+
+.imgHoliday{
+    background-image: url(../images/bg-image.png);
+    padding-block: 5rem;
+    background-size: 95%;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.imgHoliday h1{
+    margin-block-end: 3rem;
+}
+
+main div{
+    margin: 2rem;
+}
+
+main, footer{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+
+main{
+    background-color: #e9edee;
+}
+.white{
+    /* height: 200px; */
+        background-color: white;
+        
+ 
+        /* width: 600px; */
+}
+.card{
+    height: 200px;
+        width: 600px;
+        margin-inline: auto;
+}
+
+.card img{
+    max-width: 100%;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+    object-fit: cover;
+    object-position: 50% 70%;
+}
+
+article img{
+    width: 100%;
+    
+}
+
+article{
+    margin: 2rem;
+}
+
+header img{
+    padding-inline: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+h2,h4{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
