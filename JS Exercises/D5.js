@@ -176,13 +176,20 @@ for (let i = 0; i < cars.length; i++) {
     fino al raggiungimento del numero 32.
 */
 const numericArray = [6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105];
-// let n = 0;
-// while (n < numericArray.length) {
-//   if (numericArray[n] !== 32) {
-//     console.log(numericArray[n]);
-//     n++;
+let n = 0;
+// console.log(numericArray.length);
+// console.log(numericArray[n]);
+// for (let x = 0; x < numericArray.length; x++) {
+//   if (numericArray[x] !== 32) {
+//     console.log(numericArray[x]);
+//   } else {
 //   }
 // }
+
+while (numericArray[n] !== 32) {
+  console.log(numericArray[n]);
+  n++;
+}
 
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, 
@@ -191,3 +198,41 @@ const numericArray = [6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ["g", "n", "u", "z", "d"];
+const alfabetoStr = "a b c d e f g h i j k l m n o p q r s t u v w x y z";
+const arrayAlfabeto = alfabetoStr.split(" "); //  array alfabeto
+// const arrayPosAlfabeto = arrayAlfabeto
+const nuovoArrayAlf = [];
+console.log(arrayAlfabeto.length);
+let lettera = [];
+for (let i = 0; i < charactersArray.length; i++) {
+  lettera = charactersArray[i];
+  switch (lettera) {
+    case arrayAlfabeto[0]:
+      nuovoArrayAlf.push();
+      break;
+    case arrayAlfabeto[1]:
+      break;
+    case arrayAlfabeto[2]:
+      break;
+    case arrayAlfabeto[3]:
+      break;
+    case arrayAlfabeto[4]:
+      break;
+    case arrayAlfabeto[5]:
+      break;
+    case arrayAlfabeto[6]:
+      break;
+    case arrayAlfabeto[7]:
+      break;
+    case arrayAlfabeto[8]:
+      break;
+    case arrayAlfabeto[9]:
+      break;
+    case arrayAlfabeto[10]:
+      break;
+    case arrayAlfabeto[11]:
+      break;
+    case arrayAlfabeto[12]:
+      break;
+  }
+}

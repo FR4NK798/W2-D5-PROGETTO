@@ -7,11 +7,14 @@
 
 body{
     height: 100%;
+    font-family: sans-serif;
     }
 
 header img{
-    height: 3rem;
+    height: 2rem;
     margin-block: 0.5rem;
+    border-radius: 10px;
+    padding-inline: 2rem;
 }
 
 header,footer{
@@ -36,14 +39,23 @@ a,.orange,.imgHoliday{
 
 .link{
     background-color: #354759;
-    padding-block: 1rem;
+    /* padding-block: 1rem; */
     padding-inline: 2rem;
+    padding-block: 0.5rem;
     
 }
+/* .link a{
+    text-decoration: auto;
+    padding-inline-end: 0.5rem;
+    font-size: 1rem;
+} */
 .link a{
     text-decoration: auto;
     padding-inline-end: 0.5rem;
+    /* padding-block: 1rem; */
+    font-size: 1rem;
 }
+
 .back{
     text-decoration: underline;
 }
@@ -54,14 +66,15 @@ a,.orange,.imgHoliday{
 
 .imgHoliday{
     background-image: url(../images/bg-image.png);
-    padding-block: 5rem;
-    background-size: 95%;
+    padding-block: 2.5rem;
+    background-size: 70rem;
     font-weight: bold;
     font-size: 2rem;
 }
 
 .imgHoliday h1{
-    margin-block-end: 3rem;
+    margin-block-start: 2rem;
+    margin-block-end: 1rem
 }
 
 main div{
@@ -86,18 +99,22 @@ main{
         /* width: 600px; */
 }
 .card{
-    height: 200px;
-        width: 600px;
-        margin-inline: auto;
+    margin : 1rem;
+    width: 22%;
+    display: inline-block;
+    height: 20rem;
+    
+
 }
 
 .card img{
-    max-width: 100%;
     width: 100%;
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px;
+    height: 100%;
     object-fit: cover;
-    object-position: 50% 70%;
+    border-radius: 15px;
+}
+aside{
+    background-color: white;
 }
 
 article img{
@@ -105,19 +122,55 @@ article img{
     
 }
 
-article{
+article, aside{
     margin: 2rem;
 }
 
-header img{
-    padding-inline: 2rem;
-}
 
 h3{
     font-size: 1.5rem;
+}
+h4{
+    color: #17606a;
 }
 h2,h4{
     font-size: 1rem;
     font-weight: bold;
 }
 
+p,h3,h4{
+    padding-inline-end: 0.5rem;
+    display:inline
+    /* padding-inline-end: 0.5rem */
+    
+}
+
+aside div{
+    text-align: left;
+    margin: 0px;
+    margin: 1rem;
+}
+
+.textCard{
+    /* padding-inline-start: 1rem; */
+    margin-block-end: 0px;
+    padding-block-start: 1rem;
+}
+
+footer img{
+    height: 4rem;
+    /* padding-block: 3rem; */
+}
+
+.imgFooter{
+    padding-block: 3rem;
+}
+
+.footer a{
+    text-decoration: underline;
+    /* padding-block: 1rem; */
+}
+
+.footer{
+    padding-block: 1rem;
+}
