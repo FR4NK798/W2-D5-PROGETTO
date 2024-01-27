@@ -196,7 +196,7 @@ while (numericArray[n] !== 32) {
     genera un nuovo array composto dalle posizioni di ogni carattere all'interno
     dell'alfabeto italiano.
     es. [f, b, e] --> [6, 2, 5]
-*/
+// */
 const charactersArray = ["g", "n", "u", "z", "d"];
 const alfabetoStr = "a b c d e f g h i j k l m n o p q r s t u v w x y z";
 const arrayAlfabeto = alfabetoStr.split(" "); //  array alfabeto
@@ -208,31 +208,84 @@ for (let i = 0; i < charactersArray.length; i++) {
   lettera = charactersArray[i];
   switch (lettera) {
     case arrayAlfabeto[0]:
-      nuovoArrayAlf.push();
+      nuovoArrayAlf.push(1);
       break;
     case arrayAlfabeto[1]:
+      nuovoArrayAlf.push(2);
       break;
     case arrayAlfabeto[2]:
+      nuovoArrayAlf.push(3);
       break;
     case arrayAlfabeto[3]:
+      nuovoArrayAlf.push(4);
       break;
     case arrayAlfabeto[4]:
+      nuovoArrayAlf.push(5);
       break;
     case arrayAlfabeto[5]:
+      nuovoArrayAlf.push(6);
       break;
     case arrayAlfabeto[6]:
+      nuovoArrayAlf.push(7);
       break;
     case arrayAlfabeto[7]:
+      nuovoArrayAlf.push(8);
       break;
     case arrayAlfabeto[8]:
+      nuovoArrayAlf.push(9);
       break;
     case arrayAlfabeto[9]:
+      nuovoArrayAlf.push(10);
       break;
     case arrayAlfabeto[10]:
+      nuovoArrayAlf.push(11);
       break;
     case arrayAlfabeto[11]:
+      nuovoArrayAlf.push(12);
       break;
     case arrayAlfabeto[12]:
+      nuovoArrayAlf.push(13);
+      break;
+    case arrayAlfabeto[13]:
+      nuovoArrayAlf.push(14);
+      break;
+    case arrayAlfabeto[14]:
+      nuovoArrayAlf.push(15);
+      break;
+    case arrayAlfabeto[15]:
+      nuovoArrayAlf.push(16);
+      break;
+    case arrayAlfabeto[16]:
+      nuovoArrayAlf.push(17);
+      break;
+    case arrayAlfabeto[17]:
+      nuovoArrayAlf.push(18);
+      break;
+    case arrayAlfabeto[18]:
+      nuovoArrayAlf.push(19);
+      break;
+    case arrayAlfabeto[19]:
+      nuovoArrayAlf.push(20);
+      break;
+    case arrayAlfabeto[20]:
+      nuovoArrayAlf.push(21);
+      break;
+    case arrayAlfabeto[22]:
+      nuovoArrayAlf.push(22);
+      break;
+    case arrayAlfabeto[23]:
+      nuovoArrayAlf.push(24);
+      break;
+    case arrayAlfabeto[24]:
+      nuovoArrayAlf.push(25);
+      break;
+    case arrayAlfabeto[25]:
+      nuovoArrayAlf.push(26);
+      break;
+    case arrayAlfabeto[26]:
+      nuovoArrayAlf.push(27);
       break;
   }
 }
+
+console.log(nuovoArrayAlf);
