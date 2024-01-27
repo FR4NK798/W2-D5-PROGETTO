@@ -34,9 +34,11 @@ console.log(nuovoArray);
 /* ESERCIZIO 4
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
 */
-let eliminato = pets.pop();
-pets.unshift(eliminato);
-console.log(pets);
+console.log("prima",pets);
+let eliminato = pets.shift()
+console.log("eliminato",eliminato)
+pets.push(eliminato)
+console.log("dopo",pets)
 
 /* ESERCIZIO 5
     Dato il seguente array di oggetti, scrivi del codice per 
